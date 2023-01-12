@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body_container {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  background-color: #e3e3e3;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+ul {
+  text-align: center;
+  list-style: none;
+}
+/* Nav */
+nav {
+  padding: 20px;
+  margin: 0 0 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #e3e3e3;
+}
+/* ---------------------------- */
+/* Add form */
+form {
+  border: 1px solid rgb(73, 72, 72);
+  background-color: whitesmoke;
+  padding: 10px;
+  height: 300px;
+}
+
+form > * {
+  margin: 5px 5px;
+}
+
+.add_form .container {
+  display: flex;
+  justify-content: center;
+}
+.add_form input {
+  margin: 5px;
+  outline: 0;
+  border-width: 0 0 2px;
+  background: transparent;
+  border-color: blue;
+}
+.add_form input:focus {
+  border-color: green;
+}
+.add_form #submit_btn {
+  margin: 5px 0 0 0;
+  padding: 5px;
+  border-radius: 8px;
+  border-color: green;
+  transition: 0.5s ease-in-out;
+}
+.add_form #submit_btn:hover {
+  background-color: rgb(48, 47, 47);
+  color: #e3e3e3;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+/* ----------------------- */
+/* table */
+.pizza_conrainer table, tr, td {
+  border: 1px solid green;
+  padding: 10px;
+}
+/* ------------------------- */
